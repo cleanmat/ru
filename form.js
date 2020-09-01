@@ -61,7 +61,7 @@ var formSubmitProcessor = function(event) {
 			params[additionalField] = document.getElementsByName(additionalField)[0].value;
 	});
 	
-	FreezeUI({ text: 'Будь ласка, зачекайте' });
+	FreezeUI({ text: 'Пожалуйста, подождите' });
 	
 	var http = new XMLHttpRequest();
 	
